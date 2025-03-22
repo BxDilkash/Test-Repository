@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <form  action="" method="get">
+        <div>
+            <input name="Email" type="email" value="Enter your email" placeholder="Enter Your Password" required>
+        </div>
+
+        <div>
+            <textarea name="textarea1" placeholder="This is a placeholder for this textarea" cols="50" rows="5" >Enter your text here 
+                whitespaces does matters here.
+                rows and columns predefine the size through the columns and rows text that goes beyond that predefined columns and rows
+                then the scroll bar will appear to scroll to see other content so it will see only text that fits predefined
+                rows and columns area at a time.
+            </textarea>
+        </div>
+        
+        <div id="dropdown_menu">
+            <select name="SelelctOption">
+               <!--! <option value="Please Select the option" disabled selected>--Disabled--</option> 
+                    This line has both disabled but default selected so it will be selected as default but once the other option is selectd 
+                    it cannot be selected againn by the user-->
+                <option value="Please Select the option" disabled >--Disabled--</option>
+                <option value="Default" selected>Selected by Default</option>
+                <option value="value1">This is the text representation of the value</option>
+                <option value="value2">This is value 2</option>
+                <option value="value3">This is value 2</option>
+                <option value="value4"></option>
+            </select>
+
+            <div>
+                <button type="submit">Click to submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
