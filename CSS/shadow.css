@@ -1,0 +1,29 @@
+body {
+    background-color: yellow;
+}
+
+.box{
+    display: inline-block;
+    width: 444px;
+    height: 250px;
+    border-radius: 0 50% 0 50%;
+    background-image: url(/images/leviFevicon.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    box-shadow: 5px 10px 15px 5px inset black;
+    /* 
+        box-shadow: x-axis y-axis blur-radius spread-radius color;
+        blur-radius and spread-radius are optional.
+        blur-radius:- shadow is blurred by the given value.
+        spread-radius:- The shadow expands outwards by the given pixels.
+    */
+
+}
+.box img {
+    height: 250px;
+}
+img{
+    filter: drop-shadow(-20px -20px 20px black);
+}
